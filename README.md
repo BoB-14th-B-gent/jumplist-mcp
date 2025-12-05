@@ -165,7 +165,7 @@ notepad %APPDATA%\Claude\claude_desktop_config.json
     "jumplist": {
       "command": "D:\\path\\to\\jumplist-mcp\\venv\\Scripts\\python.exe",
       "args": [
-        "D:\\path\\to\\jumplist-mcp\\jumplist_mcp_server_v2.py"
+        "D:\\path\\to\\jumplist-mcp\\jumplist_mcp_server.py"
       ]
     }
   }
@@ -332,7 +332,7 @@ taskkill /F /IM Claude.exe
 
 ```
 jumplist-mcp/
-├── jumplist_mcp_server_v2.py      # 메인 MCP 서버
+├── jumplist_mcp_server.py      # 메인 MCP 서버
 ├── venv/                           # Python 가상환경
 ├── tools/                          # 외부 도구
 │   └── JLECmd/
